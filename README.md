@@ -46,19 +46,34 @@
     <img src="https://cdn.jsdelivr.net/gh/ClearOVOsky/Image_typora@main/img/image-20231012180454095.png" alt="image-20231012180454095" style="zoom:50%;" />
     <img src="https://cdn.jsdelivr.net/gh/ClearOVOsky/Image_typora@main/img/image-20231012180548698.png" alt="image-20231012180548698" style="zoom:50%;" />
 </center>
-
-<center class='half'>
+<table>
+    <tr>
+        <td><center class='half'>
     <img src="https://cdn.jsdelivr.net/gh/ClearOVOsky/Image_typora@main/img/image-20231012181235675.png" alt="image-20231012181235675" style="zoom:50%;" />
-    <img src="C:\Users\32860\AppData\Roaming\Typora\typora-user-images\image-20231013141313112.png" alt="image-20231013141313112" style="zoom:50%;" />
 </center>
-
-
-
+        </td>
+        <td><center>
+            <img src="C:\Users\32860\AppData\Roaming\Typora\typora-user-images\image-20231013141313112.png" alt="image-20231013141313112" style="zoom:50%;" /></center></td>
+    </tr>
+</table>
 
 * 色散的优化设计：
 
-
-
+  <table>
+      <tr>
+          <td><center><img src="https://cdn.jsdelivr.net/gh/ClearOVOsky/Image_typora@main/img/image-20231013203400503.png" alt="image-20231013203400503"  /></center></td>
+          <td><center><img src="https://cdn.jsdelivr.net/gh/ClearOVOsky/Image_typora@main/img/image-20231013203959198.png" alt="image-20231013203959198"  /></center>
+          </td>
+      </tr>
+  <table>
+  <tr>
+  	<td><center><img src="https://cdn.jsdelivr.net/gh/ClearOVOsky/Image_typora@main/img/image-20231013204312302.png" alt="image-20231013204312302"  /></center></td>
+      <td><center><img src="https://cdn.jsdelivr.net/gh/ClearOVOsky/Image_typora@main/img/image-20231013204356514.png" alt="image-20231013204356514"  /></center>
+      </td>
+  </tr>
+  </table>
+  
+  
 
 #### 非线性损耗（非线性效应）：
 
@@ -72,21 +87,31 @@
 
 ​		$$\begin{cases} 自相位调制（SPM）\\ 交叉相位调制（XPM）\\四波混频（FWM）  \end{cases}$$
 
-##### 有效长度
+##### 有效长度:  假设传输过程中，传输的功率不变的话，光波的传输距离称为有效长度。
 
-* 假设传输过程中，传输的功率不变的话，光波的传输距离称为有效长度。
+##### 有效面积:  在波导或者光纤中用于定量衡量某一模式占据的横向面积的量(W为光束半径)
 
-##### 有效面积
-
-* 
+<table><tr><td><center><img src="https://cdn.jsdelivr.net/gh/ClearOVOsky/Image_typora@main/img/image-20231013204723596.png" alt="image-20231013204723596"  /></center></td>
+    <td>
+    <center><img src="https://cdn.jsdelivr.net/gh/ClearOVOsky/Image_typora@main/img/image-20231013205535847.png" alt="image-20231013205535847"  /></center></td></tr></table>
 
 #### 非弹性散射：
 
-1. ***受激拉曼散射：***
+<center><b>阈值功率：散射光功率等于入射光功率的一半时对应的一个入射光功率。</b>
+</center>
+***一般来说，将 $P_{th}$ 作为阈值功率。***
 
-   * 阈值功率：散射光功率等于入射光功率的一半时对一个的入射光功率。
+1. ***受激布里渊散射（SBS）:***
+   * 阈值功率公式： $g_B P_{th} L_{eff}/ A_{eff} \approx 21$ ,其中 $g_B = 5 \times 10^{-11} m/W$  称为受激布里渊散射增益.
+   * 特点：
+     * 只有后向散射
+     *  SBS效应随入纤光功率增加而增加，随光源线宽的变宽而减小
+     * 布里渊散射光频偏约11GHz
 
-   * $g_R P_{th} L_{eff} / A_{eff} \approx 16$
+2. ***受激拉曼散射（SRS）：***
+
+   * 阈值功率公式:   $g_R P_{th} L_{eff} / A_{eff} \approx 16$, 其中 $g_R = 7 \times 10^{-14} m/W$  称为受激拉曼散射增益.
+
 
    * 特点：
      * 有前向散射，有后向散射
@@ -95,4 +120,17 @@
 
 #### 非线性折射率：
 
+<img src="https://cdn.jsdelivr.net/gh/ClearOVOsky/Image_typora@main/img/image-20231013211558182.png" alt="image-20231013211558182" style="zoom:50%;" />
+
 1. 自相位调制（SPM）:
+
+   <table><tr><td><center><img src="https://cdn.jsdelivr.net/gh/ClearOVOsky/Image_typora@main/img/image-20231013211729134.png" alt="image-20231013211729134" /></center></td>
+       <td><center><img src="https://cdn.jsdelivr.net/gh/ClearOVOsky/Image_typora@main/img/image-20231013211805201.png" alt="image-20231013211805201"  /></center></td>
+       </tr>
+   </table>
+
+   
+
+   
+
+   
